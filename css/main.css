@@ -9,6 +9,8 @@ body
 	  background-size: 300px 10px;
 	  font-weight: 300px;
 	  background-color:blue;
+	   height: 10vh;
+	   width:100%;
 
 }
 .container{
@@ -75,6 +77,7 @@ display:flex;
 	display:flex;	
 	font-size:1rem;
 	margin-left:0px;
+	
 }
 .header-view
 {
@@ -127,22 +130,25 @@ h4
 {
 padding:0px;	
 }
-/*.header-title
+.header-title
 {
 	display: block;
+	width:100%;
+	
 }
 
-*/
+
 
 .listings-grid-element
 {
-width:55%;
+width:100%;
 	padding-right:15px;	
 	
 }
 .listings-grid
 {
 display:flex;
+width:90%
 
 	
 }
@@ -152,10 +158,10 @@ display:flex;
 img
 {
 	
-padding-top:2rem;	
-height:270px;
-/*width:100%	
-object-file:cover;*/
+padding-top:1rem;	
+height:220px;
+width:50%	
+object-file:cover;
 }
 .text
 {
