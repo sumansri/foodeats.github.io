@@ -24,7 +24,7 @@
 India
 </div>
 <div class="hearder-option">
-<a href="file:///C:/Users/kavita/Desktop/order.html">Order Now</a>
+<a href="file:///C:/Users/kavita/Desktop/my/order.html">Order Now</a>
 </div>
 </div>
 <div class="searchbar">
@@ -388,7 +388,8 @@ var messages = [], //array that hold the record of each string in chat
   lastUserMessage = "", //keeps track of the most recent input string from the user
   botMessage = "", //var keeps track of what the chatbot is going to say
   botName = 'Chatbot', //name of the chatbot
-  talking = true; //when false the speach function doesn't work
+  talking = true;//when false the speach function doesn't work
+ 
 
 //edit this function to change what the chatbot says
 function chatbotResponse() {
@@ -397,8 +398,10 @@ function chatbotResponse() {
 
   if (lastUserMessage === 'hi' || lastUserMessage =='hello') {
     const hi = ['Hi, what you want to order?','hello, how can I help you?','hello']
-    botMessage = hi[Math.floor(Math.random()*(hi.length))];;
+    botMessage = hi[Math.floor(Math.random()*(hi.length))];
+	
   }
+ 
 
   if (lastUserMessage === 'name') {
     botMessage = 'My name is ' + botName;
